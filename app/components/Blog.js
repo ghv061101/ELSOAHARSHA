@@ -3,6 +3,8 @@ import BlogCard from "./BlogCard";
 import BlogCard2 from "./BlogCard2";
 import BlogImg1 from "@/public/images/blog.png";
 import BlogImg2 from "@/public/images/blog2.jpg";
+import b1 from '@/public/images/b1.png';
+import c1 from '@/public/images/c1.png';
 
 const Blog = () => {
   return (
@@ -35,13 +37,13 @@ const Blog = () => {
 
         <div className="flex flex-col gap-4">
           <BlogCard2
-            imageSrc={BlogImg2}
+            imageSrc={b1}
             title="The Covid-19 Epidemic In 2022 Is Back"
             date="20 Apr"
           />
 
           <BlogCard
-            imageSrc={BlogImg1}
+            imageSrc={c1}
             title="The Covid-19 Epidemic In 2022 Is Back"
             date="20 Apr"
           />
@@ -63,13 +65,13 @@ const Blog = () => {
 
         <div className="flex flex-col gap-4">
           <BlogCard2
-            imageSrc={BlogImg2}
+            imageSrc={b1}
             title="The Covid-19 Epidemic In 2022 Is Back"
             date="20 Apr"
           />
 
           <BlogCard
-            imageSrc={BlogImg1}
+            imageSrc={c1}
             title="The Covid-19 Epidemic In 2022 Is Back"
             date="17 Mar"
           />
